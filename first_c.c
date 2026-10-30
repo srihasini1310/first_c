@@ -1,12 +1,7 @@
-#include <stdio.h>
+#include <stdio.h> //include the standard input-output library
+//main function with an explicit return type
 int main()
 {
-    int a=10;
-    int b;
-    printf("Enter the value of b:\n");
-    scanf("%d", &b);
-    printf("The value of a is: %d\n", a);
-    printf("The value of b is: %d\n", b);
+    printf("Hello, World! This is my first C program");
     return 0;
-
 }
